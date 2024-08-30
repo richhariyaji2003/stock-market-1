@@ -5,4 +5,5 @@ keras
 streamlit
 tensorflow
 yfinance
-sklearn
+scikit-learn
+pip install --upgrade pip

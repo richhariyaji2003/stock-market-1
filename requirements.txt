@@ -6,4 +6,3 @@ streamlit
 tensorflow
 yfinance
 scikit-learn
-pip install --upgrade pip

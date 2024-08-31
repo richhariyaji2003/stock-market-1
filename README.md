@@ -28,6 +28,7 @@ This is a stock market prediction application built with Streamlit. It uses hist
 
 - Python 3.11 or later
 - Streamlit
+- yfinance
 
 ### Clone the Repository
 <H2> URL OF WEB APP </H2>

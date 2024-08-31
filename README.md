@@ -16,13 +16,11 @@ This is a stock market prediction application built with Streamlit. It uses hist
 ## Preview
 
 ### 1. Home Page
-![Home Page](path_to_home_page_image.png)
 
 ### 2. Stock Data Visualization
-![Stock Data Visualization](path_to_visualization_image.png)
 
 ### 3. Prediction Results
-![Prediction Results](path_to_prediction_results_image.png)
+
 
 *(Replace the paths with the actual paths to your images or URLs)*
 
@@ -34,7 +32,8 @@ This is a stock market prediction application built with Streamlit. It uses hist
 - Streamlit
 
 ### Clone the Repository
-
+<H2> URL OF WEB APP </H2>
+<p>https://stockmarketsssc.streamlit.app/</p>
 ```bash
 git clone https://github.com/richhariyaji2003/stock-market-1.git
 cd stock-market-1

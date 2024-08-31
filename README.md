@@ -22,8 +22,6 @@ This is a stock market prediction application built with Streamlit. It uses hist
 ### 3. Prediction Results
 
 
-*(Replace the paths with the actual paths to your images or URLs)*
-
 ## Installation
 
 ### Prerequisites

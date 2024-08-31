@@ -1,6 +1,7 @@
 import streamlit as st 
 import pandas as pd 
 import numpy as np
+import pickle
 from tensorflow import keras
 from tensorflow.keras.models import load_model
 from keras.models import load_model
@@ -18,8 +19,10 @@ start = datetime(end.year-20,end.month,end.day)
 google_data = yf.download(stock, start, end)
 
 # from keras.models import load_model
-model = load_model("/Users/yashg4824/Downloads/bhuvnesh work/Latest_stock_price_model (2).keras 2")
-# model = load_model(r"Users/yashg4824/Downloads/bhuvnesh work/Latest_stock_price_model (2).h5")
+with open('Latest_stock_price_model.pkl', 'rb') as file:
+    model = pickle.load(file)
+
+## load_model(r"Users/yashg4824/Downloads/bhuvnesh work/Latest_stock_price_model (2).h5")
 # model = load_model("/Users/yashg4824/Downloads/bhuvnesh work/Latest_stock_price_model (2).keras 2/model.weights.h5")
 # model = load_model("/Users/yashg4824/Downloads/bhuvnesh work/Latest_stock_price_model (2).keras.")
 st.subheader("Stock Data")

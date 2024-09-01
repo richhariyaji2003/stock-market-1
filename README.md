@@ -28,7 +28,8 @@ This is a stock market prediction application built with Streamlit. It uses hist
 - Python 3.11 or later
 - Streamlit
 - yfinance
-
+<h2> Video Demo</h2>
+<p1>https://youtu.be/FvIRkd3oSws</p1>
 ### Clone the Repository
 ```bash
 git clone https://github.com/richhariyaji2003/stock-market-1.git
